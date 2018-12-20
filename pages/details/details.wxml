@@ -1,0 +1,19 @@
+<view class='topView'>
+  <view class='topView_in'>
+    <image class='bigImg' src='/pages/imgs/xd.jpeg'></image>
+    <view class='chooseCard'>
+      <view class='car_title'><image class='ka' src='/pages/imgs/ka.png'></image>
+      <text>选择卡片</text> </view>
+      <view class='cards'>
+          <view class='card'></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<view class='bottomView'>
+<view class='bottomView_in'></view>
+
+</view>

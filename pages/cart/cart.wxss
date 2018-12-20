@@ -1,0 +1,74 @@
+.banner_image{
+  width: 100%;
+  height: 250px;
+}
+
+.chooseCard{
+  width: 100%;
+  /* height: 160px; */
+  margin-top: 10px;
+}
+
+.cardTitle{
+   width: 100%;
+   height: 30px;
+   line-height: 30px;
+   margin-left: 15px;
+   color: black;
+   font: 15px;
+}
+
+.cards{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+ margin-bottom: 10px;
+  background: #fff;
+}
+
+.cards .cardsChild{
+  width: 47%;
+  text-align: center;
+  margin-left: 2%;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px #ababab;
+}
+
+.cards .cardsChild image{
+  width: 100%;
+  height: 110px;
+  border-radius: 10px;
+}
+.cards .cardsChild .cardName{
+  height: 10px;
+  line-height: 10px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.buyhistory{
+  text-align:  center;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.shizhong{
+  width: 20px;
+  height: 20px;
+ vertical-align: middle;
+  /* text-align: center; */
+}
+
+.info{
+  width: 94%;
+  margin: 0 auto;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1rpx solid #ababab; 
+  margin-top: 30px;
+}

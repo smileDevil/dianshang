@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<wxs module = "filters" src = "index.wxs"></wxs>
+
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  circular="{{circular}}"
+>
+  <block wx:for="{{imgUrls}}" wx:key ="for">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="120" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+  <!-- <button type='primary' class='logButton' bindtap='logBtnClick'>
+    日志
+  </button> -->
+
+  <navigator url='/pages/jump/jump'>
+  <button type='primary' class='logButton' bindtap='logBtnClick'>
+    日志
+  </button>
+  </navigator>
+  
+
+
+<view class='content'>
+  <view class='pro' wx:for = "{{proList}}" wx:key ="for" >
+      <view><image src='../imgs/jiaju01.jpg'></image></view>
+      <view class='proName'>{{item.proName}}</view>
+      <view class='proPrice'>¥ {{filters.toFix(item.proPrice)}}</view>
+  </view>
+</view>

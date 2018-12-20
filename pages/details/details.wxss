@@ -1,0 +1,60 @@
+.topView{
+  background: #fff;
+  /* height: 400px; */
+  width: 100%;
+}
+.topView_in{
+  width: 94%;
+  /* height: 400px; */
+  margin: 0 auto;
+  background: #ffc;
+}
+
+.bigImg{
+  margin-top: 10px;
+}
+
+.bigImg ,bigImg image{
+  width: 100%;
+
+}
+
+.cards
+{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.card{
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+  margin-top: 5px;
+}
+
+.bottomView{
+
+    background: #fff;
+  height: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+.bottomView_in{
+  width: 94%;
+  height: 400px;
+  margin: 0 auto;
+  background: #ffc;
+}
+
+.car_title{
+  margin-left: 15px;
+  height: 20px;
+}
+.car_title text{
+  margin-left: 5px;
+}
+.ka{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}

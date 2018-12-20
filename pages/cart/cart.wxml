@@ -1,0 +1,65 @@
+<view class='banner'>
+<image class='banner_image' src='/pages/imgs/x5.jpg'></image>
+</view>
+
+
+  <view class='chooseCard'>
+  <view class='cardTitle'>
+    请朋友喝咖啡
+  </view>
+  <view class='cards'>
+    <view class='cardsChild' bindtap='gotoDetails'>
+      <image src='/pages/imgs/x1.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+      <view class='cardsChild'>
+      <image src='/pages/imgs/x2.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+</view>
+
+  <view class='chooseCard'>
+  <view class='cardTitle'>
+    请朋友喝咖啡
+  </view>
+  <view class='cards'>
+    <view class='cardsChild'>
+      <image src='/pages/imgs/x3.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+      <view class='cardsChild'>
+      <image src='/pages/imgs/x4.png'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+
+  <view class='cards'>
+    <view class='cardsChild'>
+      <image src='/pages/imgs/x5.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+      <view class='cardsChild'>
+      <image src='/pages/imgs/x1.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+
+    <view class='cards'>
+    <view class='cardsChild'>
+      <image src='/pages/imgs/x5.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+      <view class='cardsChild'>
+      <image src='/pages/imgs/x1.jpg'></image>
+      <view class='cardName'>给特别的你</view>
+    </view>
+  </view>
+</view>
+<view class='buyhistory'>
+<image class='shizhong' src='/pages/imgs/shizhong.png'></image>
+  购买历史
+</view>
+
+<view class='info'>您可以在星巴克用星说选购卡</view>
+

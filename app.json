@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/details/details",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/index/index",
+    
+    "pages/jump/jump"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F5B223",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "",
+      "iconPath": "/pages/imgs/home.png",
+      "selectedIconPath": "/pages/imgs/home_1.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "",
+      "iconPath": "/pages/imgs/gouwu.png",
+      "selectedIconPath": "/pages/imgs/gouwu_1.png"
+    }
+    ,
+    {
+      "pagePath": "pages/user/user",
+      "text": "",
+      "iconPath": "/pages/imgs/user.png",
+      "selectedIconPath": "/pages/imgs/user_1.png"
+    }
+    ]
+  }
+}
